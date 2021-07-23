@@ -1,0 +1,59 @@
+#rose1 {
+    grid-column: 3;
+    grid-row: 11;
+}
+
+#rose2 {
+	grid-column: 4;
+    grid-row: 11;
+}
+
+#rose3 {
+	grid-column: 4;
+    grid-row: 12;
+}
+
+#rose4 {
+	grid-column: 5;
+    grid-row: 11;
+}
+
+#rose5 {
+	grid-column: 2;
+    grid-row: 7;
+}
+
+#rose6 {
+	grid-column: 3;
+    grid-row: 7;
+}
+
+#rose7 {
+	grid-column: 4;
+    grid-row: 7;
+}
+
+#rose8 {
+	grid-column: 4;
+    grid-row: 8;
+}
+
+#rose9 {
+	grid-column: 7;
+    grid-row: 9;
+}
+
+#rose10 {
+	grid-column: 7;
+    grid-row: 8;
+}
+
+#rose11 {
+	grid-column: 7;
+    grid-row: 7;
+}
+
+#rose12 {
+	grid-column: 7;
+    grid-row: 6;
+}

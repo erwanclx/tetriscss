@@ -1,0 +1,129 @@
+@import url('http://fonts.cdnfonts.com/css/tetris');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FEFEFE;
+	font-family: 'Tetris', sans-serif;
+	overflow: hidden;
+}
+
+img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 500px;
+	width: 700px;
+	border-radius: 20px;
+	background-color: #DCDCDC;
+}
+
+.txt {
+	text-align: right;
+	margin-right: 60px;
+	font-size: 30px;
+}
+
+.next-container {
+	float: right;
+	margin-right: 110px;
+}
+
+.score-box {
+	background-color: #222222;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	outline: 2px dashed #222222;
+	margin-top: 30px;
+}
+
+.score-txt {
+	text-align: center;
+	padding-right: 10px;
+	line-height: 0px;
+}
+
+.next {
+	background-color: #222222;
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	outline: 2px dashed #222222;
+	display: grid;
+	grid-template-columns: 10px 1fr 1fr 1fr 10px;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.next-piece1 {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.next-piece2 {
+	grid-column: 3;
+	grid-row: 2;
+}
+
+.next-piece3 {
+	grid-column: 4;
+	grid-row: 2;
+}
+
+.next-piece4 {
+	grid-column: 3;
+	grid-row: 3;
+}
+
+.screen-container {
+	outline: 5px solid #222222;
+	height: 480px;
+	width: 280px;
+	background-color: #222222;
+	position: absolute;
+	top: 50%;
+	transform: translate(15%, -50%);
+	display: grid;
+	grid-template-rows: repeat(12, 40px);
+	grid-template-columns: repeat(7, 40px);
+	border-radius: 10px;
+
+}
+
+.orange, .vert, .cyan, .rose, .jaune, .bleu {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+	border-radius: 5%;
+}
+.orange	{
+	background-color: #E89B00;
+}
+
+.vert {
+	background-color: #00E800;
+}
+
+.cyan {
+	background-color: #00E8E8;
+}
+
+.rose {
+	background-color: #9B00E8;
+}
+
+.jaune {
+	background-color: #E8E800;
+}
+
+.bleu {
+	background-color: #0000E8;
+}

@@ -1,0 +1,54 @@
+#bleu1 {
+    grid-column: 1;
+    grid-row: 12;
+}
+
+#bleu2 {
+	grid-column: 2;
+    grid-row: 12;
+}
+
+#bleu3 {
+	grid-column: 3;
+    grid-row: 12;
+}
+
+#bleu4 {
+	grid-column: 2;
+    grid-row: 11;
+}
+
+#bleu5 {
+	grid-column: 4;
+    grid-row: 5;
+}
+
+#bleu6 {
+	grid-column: 5;
+    grid-row: 5;
+}
+
+#bleu7 {
+	grid-column: 6;
+    grid-row: 5;
+}
+
+#bleu8 {
+	grid-column: 4;
+    grid-row: 6;
+}
+
+#bleu9 {
+	grid-column: 5;
+    grid-row: 9;
+}
+
+#bleu10 {
+	grid-column: 6;
+    grid-row: 8;
+}
+
+#bleu11 {
+	grid-column: 5;
+    grid-row: 8;
+}
